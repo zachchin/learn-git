@@ -33,13 +33,17 @@ Follow these instructions and answer the questions for yourself to understand wh
    d. Run `git commit -m "<your-commit-message>"`
    e. Run `git log` again. Notice which commits you see now. Press `q` to quit.
    f. Run `git status`. What do you see now?
-5. Merge your changes.
+5. Push your changes from this branch.
+   a. Check your GitHub repository. Notice the commit history and branches.
+   b. Run `git push -u origin player-turn`. Check your GitHub repository now, how have the branches and commit history changed?
+   Note that the flag `-u` sets your local branch to track a remote branch with the same name when you push for the first time. Use `git push` to make subsequent pushes in this branch. You can read more about this in the Git documentation, but don't worry about it for this tutorial.
+6. Merge your changes.
    a. Run `git merge check-tie`. How does `Engine.java` look? What did this command do?
    b. Run `git log`. What did the `merge` command do with all the previous commits? Did it make any new commits?
    c. Run `git checkout master`, then run `git log` again. Notice which commits you see. Press `q` to quit.
    d. Run `git merge player-turn`. How does `Engine.java` look? What did this command do?
    e. Run `git log`. What did the `merge` command do this time?
-6. Push your changes.
+7. Push your merged changes in master.
    a. Check your GitHub repository. Notice the commit history and branches.
    a. Run `git push`. Check your GitHub repository now, how have the branches and commit history changed?
 
