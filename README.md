@@ -15,7 +15,7 @@ Follow these instructions and answer the questions for yourself to understand wh
 
 1. Fork the repository in your own GitHub account.
 2. Clone the repository to your local machine
-   1. Run `git clone git@github.com:<your-username>/learn-git.git`
+   1. Run `git clone https://github.com/<your-username>/learn-git.git`
    2. Run `cd learn-git`
 3. Create your own branch where you implement and test `playerTurn(...)`
    1. Run `git branch`. What do you see? What branch are you on?
